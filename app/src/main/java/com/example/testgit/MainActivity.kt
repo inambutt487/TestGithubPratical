@@ -11,4 +11,11 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this, "test", Toast.LENGTH_LONG).show()
     }
+
+    fun add(a: Int, b: Int): Int {
+        var c: Int = 0
+        c = a+b
+        return c
+    }
+
 }
